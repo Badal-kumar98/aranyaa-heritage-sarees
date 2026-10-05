@@ -20,7 +20,7 @@ const Login = ({ mode = 'login' as 'login' | 'forgot' }) => {
   return (
     <div className="grid lg:grid-cols-2 min-h-[80vh]">
       <div className="hidden lg:block relative bg-parchment-soft">
-        <img src="/images/saree-8.jpg" alt="" className="absolute inset-0 h-full w-full object-cover" />
+        <img src="./images/saree-8.jpg" alt="" className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-ink/30" />
         <div className="absolute bottom-10 left-10 right-10 text-cream">
           <p className="eyebrow text-gold-soft mb-3">The Aranyaa Wardrobe</p>

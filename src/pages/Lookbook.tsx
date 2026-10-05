@@ -3,15 +3,15 @@ import { motion } from 'framer-motion';
 import Breadcrumb from '../components/ui/Breadcrumb';
 
 const SHOTS = [
-  { src: '/images/campaign-hero.jpg', span: 'lg:col-span-8 lg:row-span-2', title: '01 · The Courtyard', copy: 'Aranyaa Crimson Kanjivaram · Chettinad' },
-  { src: '/images/saree-8.jpg', span: 'lg:col-span-4', title: '02 · Emerald Hallway' },
-  { src: '/images/saree-10.jpg', span: 'lg:col-span-4', title: '03 · Blush Step' },
-  { src: '/images/campaign-secondary.jpg', span: 'lg:col-span-12', title: '04 · Two Sisters' },
-  { src: '/images/saree-1.jpg', span: 'lg:col-span-4' },
-  { src: '/images/saree-9.jpg', span: 'lg:col-span-4' },
-  { src: '/images/saree-12.jpg', span: 'lg:col-span-4' },
-  { src: '/images/lookbook-courtyard.jpg', span: 'lg:col-span-8', title: '08 · The Garden' },
-  { src: '/images/saree-11.jpg', span: 'lg:col-span-4', title: '09 · Terracotta Morning' },
+  { src: './images/campaign-hero.jpg', span: 'lg:col-span-8 lg:row-span-2', title: '01 · The Courtyard', copy: 'Aranyaa Crimson Kanjivaram · Chettinad' },
+  { src: './images/saree-8.jpg', span: 'lg:col-span-4', title: '02 · Emerald Hallway' },
+  { src: './images/saree-10.jpg', span: 'lg:col-span-4', title: '03 · Blush Step' },
+  { src: './images/campaign-secondary.jpg', span: 'lg:col-span-12', title: '04 · Two Sisters' },
+  { src: './images/saree-1.jpg', span: 'lg:col-span-4' },
+  { src: './images/saree-9.jpg', span: 'lg:col-span-4' },
+  { src: './images/saree-12.jpg', span: 'lg:col-span-4' },
+  { src: './images/lookbook-courtyard.jpg', span: 'lg:col-span-8', title: '08 · The Garden' },
+  { src: './images/saree-11.jpg', span: 'lg:col-span-4', title: '09 · Terracotta Morning' },
 ];
 
 const Lookbook = () => (

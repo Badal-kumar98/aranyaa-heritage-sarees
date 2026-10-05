@@ -3,17 +3,17 @@ import { motion } from 'framer-motion';
 import Breadcrumb from '../components/ui/Breadcrumb';
 
 const STEPS = [
-  { n: '01', t: 'The yarn arrives', d: 'Mulberry silk from Karnataka, dyed by hand in indigo-fermented iron pots. Each hank is checked, weighed and tagged.', img: '/images/craft-hands.jpg' },
-  { n: '02', t: 'The warp is set', d: '5,300 parallel threads are laid across the frame — a five-day exercise in tension. This is where a Kanjivaram begins.', img: '/images/craft-loom.jpg' },
-  { n: '03', t: 'The pallu, first', d: 'The most technical section is woven first: extra-weft zari threaded through mango motifs held only in memory.', img: '/images/detail-pallu.jpg' },
-  { n: '04', t: 'Border and body', d: 'A separate weaver joins the border to the body using the korvai three-shuttle technique. Two colours, one loom.', img: '/images/detail-border.jpg' },
-  { n: '05', t: 'Cut, signed, sent', d: 'On the eleventh day the saree is cut, folded, signed with a needle-and-thread mark, and photographed for our archive.', img: '/images/craft-block.jpg' },
+  { n: '01', t: 'The yarn arrives', d: 'Mulberry silk from Karnataka, dyed by hand in indigo-fermented iron pots. Each hank is checked, weighed and tagged.', img: './images/craft-hands.jpg' },
+  { n: '02', t: 'The warp is set', d: '5,300 parallel threads are laid across the frame — a five-day exercise in tension. This is where a Kanjivaram begins.', img: './images/craft-loom.jpg' },
+  { n: '03', t: 'The pallu, first', d: 'The most technical section is woven first: extra-weft zari threaded through mango motifs held only in memory.', img: './images/detail-pallu.jpg' },
+  { n: '04', t: 'Border and body', d: 'A separate weaver joins the border to the body using the korvai three-shuttle technique. Two colours, one loom.', img: './images/detail-border.jpg' },
+  { n: '05', t: 'Cut, signed, sent', d: 'On the eleventh day the saree is cut, folded, signed with a needle-and-thread mark, and photographed for our archive.', img: './images/craft-block.jpg' },
 ];
 
 const Craft = () => (
   <div className="pb-24">
     <section className="relative min-h-[70vh] bg-ink text-cream overflow-hidden">
-      <img src="/images/craft-hands.jpg" alt="" className="absolute inset-0 h-full w-full object-cover opacity-70" />
+      <img src="./images/craft-hands.jpg" alt="" className="absolute inset-0 h-full w-full object-cover opacity-70" />
       <div className="absolute inset-0 bg-gradient-to-t from-ink to-ink/20" />
       <div className="relative max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-10 pt-24 pb-16 min-h-[70vh] flex flex-col justify-end">
         <Breadcrumb trail={[{ label: 'Home', to: '/' }, { label: 'The Craft' }]} />

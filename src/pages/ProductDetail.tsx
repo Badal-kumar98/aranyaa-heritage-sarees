@@ -272,7 +272,7 @@ const ProductDetail = () => {
       {/* CRAFT STORY */}
       <section className="bg-ink text-cream mt-24 lg:mt-32 py-20 lg:py-28">
         <div className="max-w-[1200px] mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-          <img src={saree.detailImages.pallu || '/images/detail-pallu.jpg'} alt="Craft detail" className="w-full ratio-4-5 object-cover" />
+          <img src={saree.detailImages.pallu || './images/detail-pallu.jpg'} alt="Craft detail" className="w-full ratio-4-5 object-cover" />
           <div>
             <p className="eyebrow text-gold-soft mb-4">The Craft</p>
             <h2 className="font-display text-3xl lg:text-5xl leading-tight">{saree.editorialBlurb || saree.craft}</h2>

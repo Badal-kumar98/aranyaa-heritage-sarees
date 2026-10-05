@@ -5,7 +5,7 @@ const About = () => (
   <div className="pb-24">
     <section className="grid lg:grid-cols-2 min-h-[80vh]">
       <div className="relative order-2 lg:order-1">
-        <img src="/images/campaign-hero.jpg" alt="" className="absolute inset-0 h-full w-full object-cover" />
+        <img src="./images/campaign-hero.jpg" alt="" className="absolute inset-0 h-full w-full object-cover" />
       </div>
       <div className="px-6 lg:px-16 py-16 lg:py-24 flex flex-col justify-center bg-cream order-1 lg:order-2">
         <div>

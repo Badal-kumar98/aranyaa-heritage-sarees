@@ -9,11 +9,11 @@ import { useEffect, useState } from 'react';
 import type { Saree } from '../types';
 
 const OCCASIONS = [
-  { slug: 'bridal', label: 'Bridal', image: '/images/saree-1.jpg', copy: 'Once. Always.' },
-  { slug: 'festive', label: 'Festive', image: '/images/saree-5.jpg', copy: 'Lamps & laddoos.' },
-  { slug: 'reception', label: 'Reception', image: '/images/saree-8.jpg', copy: 'The second entrance.' },
-  { slug: 'daily', label: 'Everyday', image: '/images/saree-11.jpg', copy: 'Weekday, well-worn.' },
-  { slug: 'destination', label: 'Destination', image: '/images/saree-10.jpg', copy: 'Suitcase-ready.' },
+  { slug: 'bridal', label: 'Bridal', image: './images/saree-1.jpg', copy: 'Once. Always.' },
+  { slug: 'festive', label: 'Festive', image: './images/saree-5.jpg', copy: 'Lamps & laddoos.' },
+  { slug: 'reception', label: 'Reception', image: './images/saree-8.jpg', copy: 'The second entrance.' },
+  { slug: 'daily', label: 'Everyday', image: './images/saree-11.jpg', copy: 'Weekday, well-worn.' },
+  { slug: 'destination', label: 'Destination', image: './images/saree-10.jpg', copy: 'Suitcase-ready.' },
 ];
 
 const FABRICS = [
@@ -72,7 +72,7 @@ const Home = () => {
           <div className="lg:col-span-7 relative order-1 lg:order-2">
             <div className="relative h-[68vh] lg:h-full">
               <img
-                src="/images/campaign-hero.jpg"
+                src="./images/campaign-hero.jpg"
                 alt="Aranyaa campaign — a woman in a crimson silk saree in a sunlit courtyard"
                 className="absolute inset-0 h-full w-full object-cover reveal-mask"
               />
@@ -204,7 +204,7 @@ const Home = () => {
             viewport={{ once: true }}
             transition={{ duration: 1.0, ease: [0.22, 1, 0.36, 1] }}
           >
-            <img src="/images/craft-hands.jpg" alt="A weaver's hands at the loom" className="w-full ratio-4-5 object-cover" />
+            <img src="./images/craft-hands.jpg" alt="A weaver's hands at the loom" className="w-full ratio-4-5 object-cover" />
             <div className="absolute -bottom-6 -right-6 lg:-bottom-8 lg:-right-8 bg-cream text-ink px-6 py-5 max-w-[220px] shadow-2xl">
               <p className="eyebrow text-clay mb-1">Chapter 01</p>
               <p className="font-display text-lg leading-snug">The eleven-day saree</p>
@@ -259,7 +259,7 @@ const Home = () => {
 
       {/* ============ IMMERSIVE COLLECTION ============ */}
       <section className="relative min-h-[85vh] lg:min-h-[95vh] overflow-hidden bg-ink">
-        <img src="/images/campaign-secondary.jpg" alt="Two women in luxurious sarees in a heritage garden" className="absolute inset-0 h-full w-full object-cover opacity-90" />
+        <img src="./images/campaign-secondary.jpg" alt="Two women in luxurious sarees in a heritage garden" className="absolute inset-0 h-full w-full object-cover opacity-90" />
         <div className="absolute inset-0 bg-gradient-to-r from-ink/70 via-ink/30 to-transparent" />
         <div className="relative max-w-[1440px] mx-auto px-6 lg:px-10 h-full min-h-[85vh] lg:min-h-[95vh] flex flex-col justify-center py-20">
           <div className="max-w-2xl text-cream">
@@ -336,7 +336,7 @@ const Home = () => {
         <div className="overflow-hidden">
           <div className="flex gap-4 lg:gap-6 marquee" style={{ width: 'max-content' }}>
             {[...Array(2)].flatMap((_, dup) =>
-              ['/images/saree-8.jpg', '/images/saree-1.jpg', '/images/saree-10.jpg', '/images/saree-5.jpg', '/images/saree-9.jpg', '/images/saree-12.jpg', '/images/saree-3.jpg', '/images/saree-7.jpg'].map((src, i) => (
+              ['./images/saree-8.jpg', './images/saree-1.jpg', './images/saree-10.jpg', './images/saree-5.jpg', './images/saree-9.jpg', './images/saree-12.jpg', './images/saree-3.jpg', './images/saree-7.jpg'].map((src, i) => (
                 <div key={`${dup}-${i}`} className="w-[280px] lg:w-[360px] shrink-0">
                   <img src={src} alt="" className="w-full ratio-portrait object-cover" />
                 </div>

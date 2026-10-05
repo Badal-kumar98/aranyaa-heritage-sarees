@@ -11,7 +11,7 @@ export const COLLECTIONS: Collection[] = [
     tagline: 'Sarees to be worn once, then remembered forever.',
     description:
       'Kanjivarams, Banarasis and Patolas woven over months by master families. Each piece is signed by its weaver and comes with a certificate of provenance.',
-    hero: '/images/hero-1.jpg',
+    hero: './images/hero-1.jpg',
     count: 24,
     palette: 'Crimson, Ivory, Emerald',
     productIds: SAREES.filter((s) => s.occasions.includes('bridal')).slice(0, 8).map((s) => s.id),
@@ -22,7 +22,7 @@ export const COLLECTIONS: Collection[] = [
     tagline: 'Linens and chanderis for the days that hold the year together.',
     description:
       'A soft-spoken collection of everyday sarees — handwoven, easy to wear, honest in price. For weekday desks, weekend mornings, temple visits and quiet dinners.',
-    hero: '/images/saree-11.jpg',
+    hero: './images/saree-11.jpg',
     count: 18,
     palette: 'Terracotta, Olive, Ochre',
     productIds: SAREES.filter((s) => s.occasions.includes('daily')).slice(0, 8).map((s) => s.id),
@@ -32,7 +32,7 @@ export const COLLECTIONS: Collection[] = [
     title: 'Festive Light',
     tagline: 'For the lamps, the laddoos and everyone who stopped by.',
     description: 'Silks and organzas that carry themselves from dusk aarti to midnight card table.',
-    hero: '/images/saree-5.jpg',
+    hero: './images/saree-5.jpg',
     count: 22,
     palette: 'Saffron, Rose, Blush',
     productIds: SAREES.filter((s) => s.occasions.includes('festive')).slice(0, 8).map((s) => s.id),
@@ -43,7 +43,7 @@ export const COLLECTIONS: Collection[] = [
     tagline: 'Organzas and georgettes for weddings you had to fly to.',
     description:
       'Weightless drapes engineered for suitcases, sea salt and sunset ceremonies. Every piece packs into a shoebox.',
-    hero: '/images/saree-10.jpg',
+    hero: './images/saree-10.jpg',
     count: 16,
     palette: 'Blush, Champagne, Sky',
     productIds: SAREES.filter((s) => s.occasions.includes('destination') || s.fabric === 'organza').slice(0, 8).map((s) => s.id),
@@ -57,7 +57,7 @@ export const JOURNAL: JournalPost[] = [
     excerpt: 'What it takes to weave a bridal Kanjivaram, told through Kumar’s loom in Kanchipuram.',
     category: 'Craft',
     readTime: '7 min read',
-    image: '/images/craft-hands.jpg',
+    image: './images/craft-hands.jpg',
     date: 'August 2026',
   },
   {
@@ -66,7 +66,7 @@ export const JOURNAL: JournalPost[] = [
     excerpt: 'The classic drape, decoded. Photographs, pin placements, and the honest bits nobody tells you.',
     category: 'Guide',
     readTime: '4 min read',
-    image: '/images/hero-2.jpg',
+    image: './images/hero-2.jpg',
     date: 'July 2026',
   },
   {
@@ -75,7 +75,7 @@ export const JOURNAL: JournalPost[] = [
     excerpt: 'Not all silk is the same. A grower’s glossary, and how to tell them apart in your hand.',
     category: 'Guide',
     readTime: '9 min read',
-    image: '/images/detail-fabric.jpg',
+    image: './images/detail-fabric.jpg',
     date: 'July 2026',
   },
   {
@@ -84,7 +84,7 @@ export const JOURNAL: JournalPost[] = [
     excerpt: 'A short cultural history of the paisley — from Persian gardens to Kancheepuram pallus.',
     category: 'Story',
     readTime: '6 min read',
-    image: '/images/detail-border.jpg',
+    image: './images/detail-border.jpg',
     date: 'June 2026',
   },
 ];

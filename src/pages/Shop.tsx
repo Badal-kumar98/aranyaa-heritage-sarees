@@ -191,7 +191,7 @@ const Shop = ({ mode }: Props) => {
             {!loading && filtered.length > 6 && (
               <div className="mt-16 relative overflow-hidden bg-ink text-cream">
                 <div className="grid md:grid-cols-2 items-center">
-                  <img src="/images/detail-pallu.jpg" alt="" className="h-full w-full object-cover ratio-4-5 md:ratio-3-2" />
+                  <img src="./images/detail-pallu.jpg" alt="" className="h-full w-full object-cover ratio-4-5 md:ratio-3-2" />
                   <div className="p-8 lg:p-12">
                     <p className="eyebrow text-gold-soft mb-3">Not sure where to begin?</p>
                     <h3 className="font-display text-3xl lg:text-4xl leading-snug">Book a virtual saree consultation, on us.</h3>
